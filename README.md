@@ -99,6 +99,17 @@ Reading your phone's calendars, your contacts' birthdays, Health Connect or scre
 - **Something is gone.** Look in **Settings → Data → Trash**, then **Restore from backup**.
 - **The app misbehaved.** **Settings → Data → Problem log** keeps a short list of what went wrong on that device, which you can copy.
 
+<!-- languages:start -->
+## Built with
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="languages-dark.svg">
+  <img alt="Languages: TypeScript 80.0% · Kotlin 12.6% · CSS 6.5% · Other 0.8%" src="languages-light.svg">
+</picture>
+
+The app is a TypeScript web app (React) inside a native Android shell made with Capacitor, with the phone-only parts (alarms, widgets, Health Connect, screen time) in Kotlin. The PC version and sync run on a Cloudflare Worker. The shares are GitHub's own count of the private source, updated with each release.
+<!-- languages:end -->
+
 ## Project status
 
 Planner is in daily use and changes often, sometimes several times a week. Each release on this page has a few lines on what changed.
