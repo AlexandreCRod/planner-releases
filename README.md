@@ -104,7 +104,7 @@ Reading your phone's calendars, your contacts' birthdays, Health Connect or scre
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="languages-dark.svg">
-  <img alt="Languages: TypeScript 81.2% · Kotlin 11.5% · CSS 6.2% · Other 1.0%" src="languages-light.svg">
+  <img alt="Languages: TypeScript 81.1% · Kotlin 11.5% · CSS 6.3% · Other 1.0%" src="languages-light.svg">
 </picture>
 
 The app is a TypeScript web app (React) inside a native Android shell made with Capacitor, with the phone-only parts (alarms, widgets, Health Connect, screen time) in Kotlin. The PC version and sync run on a Cloudflare Worker. The shares are GitHub's own count of the private source, updated with each release.
